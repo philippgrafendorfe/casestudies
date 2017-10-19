@@ -1,37 +1,53 @@
-presentation
+Praktikum Blumatix Consulting Februar 2017 - Heute
 ========================================================
-author: 
-date: 
+incremental: true
+author: Philipp Grafendorfer
+date: 21.10.2017
 autosize: true
 
-First Slide
+Verschiedene Techniken, Anwendungen
 ========================================================
 
-For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
+- R
+- Supervised Learning, Unsupervised Learning
+- Reporting
+- Interaktive Shiny- Applikation auf Microsoft R Server
+- Azure ML Services
+- Python 3
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-Slide With Code
+Was ist wichtig?
 ========================================================
 
+- Pivoting
+- Interactive Apps
+- xgboost
+- Webservice Deployment
 
-```r
-summary(cars)
-```
-
-```
-     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-```
-
-Slide With Plot
+Pivoting
 ========================================================
 
-![plot of chunk unnamed-chunk-2](presentation-figure/unnamed-chunk-2-1.png)
+- Long -> Wide
+- Aggregation
+
+
+
+
+```
+Warnmeldung:
+Paket 'knitr' wurde unter R Version 3.4.2 erstellt 
+
+
+processing file: presentation.Rpres
+running: python  -c "import pandas as pd
+df = pd.read_csv('test.csv)"
+Quitting from lines 33-35 (presentation.Rpres) 
+Fehler in engine(options) :   File "<string>", line 2
+    df = pd.read_csv('test.csv)
+                              ^
+SyntaxError: EOL while scanning string literal
+Ruft auf: knit ... process_group.block -> call_block -> block_exec -> in_dir -> engine
+Zusätzlich: Warnmeldung:
+Ausführung von Kommando '"python"  -c "import pandas as pd
+df = pd.read_csv('test.csv)"' ergab Status 1 
+Ausführung angehalten
+```

@@ -1,0 +1,87 @@
+---
+title: "Blumatix since Februar 2017"
+author: "Philipp Grafendorfer"
+date: "21st of October 2017"
+output: 
+  ioslides_presentation:
+    fullscreen: true
+    widescreen: true
+    css: style.css
+    logo: bludeltalogo.png
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Tools and techniques
+
+> - R is good for Machine Learning
+> - Python 3 is better
+> - Supervised Learning, Unsupervised Learning
+> - Reporting
+> - Interaktive Shiny- Applikation auf Microsoft R Server
+> - Azure ML Services
+
+## What matters most?
+
+- Pivoting
+- Interactive apps
+- Strong testing algorithm (xgboost)
+- Webservice deployment
+
+## Pivoting
+
+- Long -> Wide
+- Aggregation
+- Import data from database
+
+## Wishes become true
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
+library(data.table)
+df <- fread(input = 'test.csv', select = c(2,3,4), data.table = F)
+print(df[1:10,])
+```
+
+<!-- ```{python, engine.path="C:\Program Files\Anaconda3"} -->
+<!-- final = df.pivot_table(index='UserID', columns='DetailID', values='InvoiceID', aggfunc=lambda x: len(x.unique())) -->
+<!-- print(final) -->
+<!-- ``` -->
+
+
+## XGBoost
+
+- Gradient Boosting Tree Algorithm
+- Supervised Learning
+- Cross Validation lies within by definition
+- Parallelization
+- Continued Training
+- Free open source
+- Fast
+
+
+## How to access xgboost
+
+- R interface as well as a model in the caret package.
+- Command Line Interface (CLI).
+- C++ (the language in which the library is written).
+- Python interface as well as a model in scikit-learn.
+- Julia.
+- Java and JVM languages like Scala and platforms like Hadoop.
+
+
+## Microsoft Azure ML Webservices
+
++ Easy pseudo- wysiwyg training
++ Easy webservice implementation
++ on-demand computational power
+- No code hands-on
+
+
+## Links
+
+- <https://www.bludelta.ai/>
+- <https://github.com/philippgrafendorfe>
+- <https://datasciencesalzburg.slack.com>
+

@@ -1,6 +1,5 @@
 Praktikum Blumatix Consulting Februar 2017 - Heute
 ========================================================
-incremental: true
 author: Philipp Grafendorfer
 date: 21.10.2017
 autosize: true
@@ -37,13 +36,35 @@ df = pd.read_csv('test.csv)
 final = table.pivot_table(index='UserID', columns='DetailID', values='InvoiceID', aggfunc=lambda x: len(x.unique()))
 
 
-XGBoost 1
+XGBoost
 ========================================================
 
+- Gradient Boosting Tree Algorithm
+- Supervised Learning
+- Cross Validation lies within by definition
+- Parallelization
+- Continued Training
+- Free open source
+- Fast
+
+
+How can I use it?
+========================================================
+
+- Command Line Interface (CLI).
+- C++ (the language in which the library is written).
+- Python interface as well as a model in scikit-learn.
+- R interface as well as a model in the caret package.
+- Julia.
+- Java and JVM languages like Scala and platforms like Hadoop.
 
 Azure ML Webservices 1
 ========================================================
 
++ Easy pseudo- wysiwyg training
++ Easy webservice implementation
++ on-demand computational power
+- No code hands-on
 
 
 Links

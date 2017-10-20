@@ -24,6 +24,7 @@ params <- list(
   ,colsample_bytree = 1
 )
 
+
 xgb_cv <- xgb.cv(
   params = params
   ,data = dtrain
@@ -31,7 +32,7 @@ xgb_cv <- xgb.cv(
   ,nfold = 10
   ,showsd = T
   ,stratified = T
-  ,print_every_n = 10
+  ,print_every_n = 5
   ,early_stopping_rounds = 10
   ,maximize = F
   ,prediction = T

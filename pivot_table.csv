@@ -1,0 +1,11 @@
+UserID,DeliveryDate,GrandTotalAmountLabel,Iban,InvoiceCurrency,LineItemTableFooter,VatAmount,VatAmountLabel,VatLabel
+Christian Bako,,,,,1.0,,,
+Daniela Dobler,,,,,,,,1.0
+David Zahedi,,,,,,,1.0,
+Johanna Röck,,,,1.0,,,,
+Lukas Mühlbacher,,,,,,,1.0,
+Philipp Grafendorfer,,,,,,1.0,,
+Renate Widemann,,1.0,,,,,,
+Sharon Strimbu,1.0,,,,,,,
+Suri Zahedi,,,,,1.0,,,
+Werner Rupp,,,1.0,,,,,

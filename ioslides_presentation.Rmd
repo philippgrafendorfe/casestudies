@@ -18,18 +18,19 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Tools, techniques and perception
 
 > - Supervised Learning, Unsupervised Learning
-> - Reporting
+> - Interactive Reporting
 > - Interactive Shiny- application on Microsoft R Server
-> - Azure ML Services
+> - Microsoft Azure ML Services
 > - R is good for Machine Learning
 > - Python is better
+> - Feature engineering is key
 
 ## Highlights
 
 - Pivoting
 - Interactive apps
-- Good algorithm for testing (xgboost)
-- Webservice deployment with Azure ML Studio
+- Modern algorithm (xgboost)
+- Webservice deployment
 
 ## Pivoting
 
@@ -91,6 +92,8 @@ print(pivot[1:10,1:5])
 - <https://www.bludelta.ai/>
 - <https://github.com/philippgrafendorfe>
 - <https://datasciencesalzburg.slack.com>
+- <http://blog.kaggle.com/2017/01/23/a-kaggle-master-explains-gradient-boosting/>
+
 
 
 ### Thanks for your attention.
